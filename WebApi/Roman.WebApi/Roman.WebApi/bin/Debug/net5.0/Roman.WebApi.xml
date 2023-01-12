@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Roman.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Roman.WebApi.Controllers.EquipeController.Post(Roman.WebApi.Domain.Equipe)">
+            <summary>
+            Cadastra uma nova equipe
+            </summary>
+            <param name="NovaEquipe">Objeto do tipo Equipe</param>
+            <returns>StatusCode 201 - Created</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.EquipeController.Get">
+            <summary>
+            Lista todas as equipes
+            </summary>
+            <returns>Status Code 200 - Ok E Lista de equipes</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.EquipeController.GetById(System.Int32)">
+            <summary>
+            Busca uma equipe pelo Id
+            </summary>
+            <param name="Id">Id da equipe buscada</param>
+            <returns>Status Code 200 - Ok E Uma equipe</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.EquipeController.Put(System.Int32,Roman.WebApi.Domain.Equipe)">
+            <summary>
+            Atualiza uma equipe
+            </summary>
+            <param name="Id"> Id da equipe que será atualizada</param>
+            <param name="EquipeAtualizada">Objeto do tipo equipe contendo as novas informações</param>
+            <returns>Status Code 204 - No Content</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.EquipeController.Delete(System.Int32)">
+            <summary>
+            Exclui uma equipe
+            </summary>
+            <param name="Id">Id da equipe que será excluída</param>
+            <returns>Status Code 204 - No Content</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.ProjetoController.Post(Roman.WebApi.Domain.Projeto)">
+            <summary>
+            Cadastra um novo projeto
+            </summary>
+            <param name="NovoProjeto">Objeto do tipo Projeto</param>
+            <returns>Status Code 201 - Created</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.ProjetoController.Get">
+            <summary>
+            Lista todos os projetos
+            </summary>
+            <returns>Status Code 200 - Ok E Uma lista de projetos</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.ProjetoController.GetById(System.Int32)">
+            <summary>
+            Busca um projeto
+            </summary>
+            <param name="Id">Id do projeto buscado</param>
+            <returns>Status Code 200 - Ok E Um projeto</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.ProjetoController.Put(System.Int32,Roman.WebApi.Domain.Projeto)">
+            <summary>
+            Atualiza um projeto
+            </summary>
+            <param name="Id">Id do projeto que será atualizado</param>
+            <param name="ProjetoAtualizado">Objeto do tipo Projeto contendo as novas informações</param>
+            <returns>Status Code 204 - No Content</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.ProjetoController.Delete(System.Int32)">
+            <summary>
+            Exclui um projeto
+            </summary>
+            <param name="Id">Id do projeto que será excluído</param>
+            <returns>Status Code 204 - No Content</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TemaController.Post(Roman.WebApi.Domain.Tema)">
+            <summary>
+            Cadastra um novo tema
+            </summary>
+            <param name="NovoTema">Objeto do tipo Tema</param>
+            <returns>Status Code 201 - Created</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TemaController.Get">
+            <summary>
+            Lista todos os temas
+            </summary>
+            <returns>Status Code 200 - Ok E Uma lista de temas</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TemaController.GetById(System.Int32)">
+            <summary>
+            Um tema
+            </summary>
+            <param name="Id">Id do tema buscado</param>
+            <returns>Status Code 200 - Ok E Um tema</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TemaController.Put(System.Int32,Roman.WebApi.Domain.Tema)">
+            <summary>
+            Atualiza as os dados de um tema
+            </summary>
+            <param name="Id">Id do tema que será atualizado</param>
+            <param name="TemaAtualizado">Objeto do tipo Tema contendo os novos dados</param>
+            <returns>Status Code 204 - No Content</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TemaController.Delete(System.Int32)">
+            <summary>
+            Exclui um tema
+            </summary>
+            <param name="Id">Id do tema que será excluído</param>
+            <returns>Status Code 204 - No Content</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TipoUsuarioController.Post(Roman.WebApi.Domain.TipoUsuario)">
+            <summary>
+            Cadastra um novo tipo de usuário
+            </summary>
+            <param name="NovoProjeto">Objeto do tipo TipoUsuario</param>
+            <returns>Status Code 201 - Created</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TipoUsuarioController.Get">
+            <summary>
+            Lista todos os tipos de usuários
+            </summary>
+            <returns>Status Code 200 - Ok E Uma lista de tipos de usuários</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TipoUsuarioController.GeById(System.Int32)">
+            <summary>
+            Busca um tipo de usuário pelo Id
+            </summary>
+            <param name="Id">Id do tipo de usuário buscado</param>
+            <returns>Status Code 200 - Ok E Um tipo de usuário</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TipoUsuarioController.Put(System.Int32,Roman.WebApi.Domain.TipoUsuario)">
+            <summary>
+            Atualiza os dados do tipo de usuário
+            </summary>
+            <param name="Id">Id do tipo de usuário que será atualizado</param>
+            <param name="TipoUsuarioAtualizado">Objeto do tipo TipoUsuario contendo os novos dados</param>
+            <returns>Status Code 204 - No Content</returns>
+        </member>
+        <member name="M:Roman.WebApi.Controllers.TipoUsuarioController.Delete(System.Int32)">
+            <summary>
+            Exclui um tipo de usuário
+            </summary>
+            <param name="Id">Id do tipo de usuário que será excluído</param>
+            <returns>Status Code 204 - No Content</returns>
+        </member>
+    </members>
+</doc>
